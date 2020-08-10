@@ -1,0 +1,20 @@
+.movies {
+  display: flex;
+}
+
+.movie {
+  padding: 100px 100px;
+  display: flex;
+  background-color: white;
+  box-shadow: ;
+}
+
+.movie img {
+  width: 150px;
+  height: 200px;
+}
+
+.movie__data {
+  display: flex;
+  flex-direction: column;
+}

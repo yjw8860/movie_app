@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "Movie.css";
+
+section {
+  display: block;
+  width: 100vw;
+}
