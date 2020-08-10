@@ -1,20 +1,53 @@
 .movies {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 100px;
+  box-sizing: border-box;
 }
 
 .movie {
-  padding: 100px 100px;
   display: flex;
-  background-color: white;
-  box-shadow: ;
+  background-color: rgba(249, 250, 214, 0.938);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  width: 400px;
+  height: 250px;
+  margin: 50px 50px;
+}
+
+.img__container {
+  position: relative;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .movie img {
   width: 150px;
   height: 200px;
+  position: absolute;
+  top: -15px;
+  left: 15px;
 }
 
 .movie__data {
   display: flex;
   flex-direction: column;
+  padding-left: 175px;
+}
+
+.movie__title__year {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.genres {
+  display: flex;
+  justify-content: start;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+.movie__summary {
+  line-height: 120%;
 }

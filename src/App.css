@@ -2,6 +2,5 @@
 @import "Movie.css";
 
 section {
-  display: block;
-  width: 100vw;
+  padding: 0px 50px;
 }
