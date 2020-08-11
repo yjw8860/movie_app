@@ -1,0 +1,6 @@
+@import "../reset.css";
+@import "../components/Movie.css";
+
+section {
+  padding: 0px 50px;
+}

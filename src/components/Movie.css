@@ -5,13 +5,14 @@
   justify-content: space-between;
   padding: 0px 100px;
   box-sizing: border-box;
+  background-color: #f0f4f8;
 }
 
 .movie {
   display: flex;
-  background-color: rgba(249, 250, 214, 0.938);
+  background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  width: 400px;
+  width: 600px;
   height: 250px;
   margin: 50px 50px;
 }
@@ -43,11 +44,20 @@
 
 .genres {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin-right: 2px;
   margin-bottom: 10px;
 }
 
 .movie__summary {
   line-height: 120%;
+}
+
+.genres li {
+  margin-right: 2px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.movie__summary {
+  color: rgba(0, 0, 0, 0.5);
 }

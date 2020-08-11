@@ -15,11 +15,11 @@ function Movie({ year, title, summary, poster, genres }) {
         <ul className="genres">
           {genres.map((genre, index) => (
             <li key={index} className="genres__genre">
-              {genre}
+              {genre},
             </li>
           ))}
         </ul>
-        <p className="movie__summary">{summary.substring(0, 140)}</p>
+        <p className="movie__summary">{summary.slice(0, 140)}...</p>
       </div>
     </div>
   );
